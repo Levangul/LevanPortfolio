@@ -1,5 +1,16 @@
-import Header from './components/header'
 
-function App() { <Header />; }
+import { Outlet } from 'react-router-dom';
+import Nav from './components/Home';
 
-export default App
+function App() {
+  return (
+    <>
+      <Nav />
+      <main className="mx-3">
+        <Outlet />
+      </main>
+    </>
+  );
+}
+
+export default App;
