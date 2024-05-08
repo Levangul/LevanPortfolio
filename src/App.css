@@ -46,6 +46,13 @@
       border-color: #487498;
   }
 } */
+.skills {
+ 
+  border-style: solid;
+  animation: glowing-border 2.5s infinite alternate;
+  padding: 20px;
+}
+
 .skill-icons {
   display: flex;
   flex-direction: row;
@@ -54,7 +61,7 @@
 }
 @keyframes glowing-border {
   from {
-      border-color: #131e14;
+      border-color: #ffffff;
   }
   to {
       border-color: #487498;
@@ -71,12 +78,12 @@
   margin-top: 40px;
 }
 .photo-container {
-  margin-bottom: 20px; /* Add margin to create space between image and text */
+  margin-bottom: 20px; 
 }
 
 .photo {
-  width: 200px; /* Adjust image size as needed */
-  border-radius: 50%; /* Make the image round */
+  width: 200px; 
+  border-radius: 50%; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
@@ -109,7 +116,7 @@
   }
   
   textarea.form-control {
-    height: 150px; /* Adjust as needed */
+    height: 150px;
   }
   
   .btn-primary {
@@ -134,6 +141,7 @@
   p { 
     font-size: 1.2em;
     font-style: italic;
+    height: auto;
   } 
   
   

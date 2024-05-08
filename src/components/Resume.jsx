@@ -5,9 +5,9 @@ import { FiClipboard } from "react-icons/fi";
 const Portfolio = () => {
   return (
     
-    <div className="container">
+    <div className="container skills">
       
-      <div className="row justify-content-center">
+      <div className="row justify-content-center ">
         <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center mb-4">
           <FaHtml5 size={40} color="#E34F26" />
           <p className="mt-2">HTML5</p>
@@ -49,9 +49,8 @@ const Portfolio = () => {
           <p className="mt-2">Jest</p>
         </div>
       </div>
-      <p>small list of skills i have developed so far</p>
-      <p>Click here to download my resume!</p>
     </div>
+   
   );
 };
 
