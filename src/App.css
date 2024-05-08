@@ -12,7 +12,7 @@
     color: #e5d3d3;
   }
 
-
+/* 
 .photo-container {
     flex: 0 0 auto;
     
@@ -26,6 +26,132 @@
 }
 
 .info-container {
-    margin-top: 20px;
+  width: 100%; 
+  max-width:800px;
+  margin: 20px auto; 
+  padding: 20px; 
+  border: 2px solid #ccc; 
+  
 }
 
+.info-container {
+  animation: glowing-border 2.5s infinite alternate;
+}
+
+@keyframes glowing-border {
+  from {
+      border-color: #131e14;
+  }
+  to {
+      border-color: #487498;
+  }
+} */
+.skill-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  animation: glowing-border 2.5s infinite alternate;
+}
+@keyframes glowing-border {
+  from {
+      border-color: #131e14;
+  }
+  to {
+      border-color: #487498;
+  } }
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.container {
+  margin-top: 40px;
+}
+.photo-container {
+  margin-bottom: 20px; /* Add margin to create space between image and text */
+}
+
+.photo {
+  width: 200px; /* Adjust image size as needed */
+  border-radius: 50%; /* Make the image round */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.info-container {
+  max-width: 600px; 
+}
+
+.social-icons {
+  display: flex;
+  
+}
+.icon{
+  margin: 0 10px; 
+  font:24px }
+
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea.form-control {
+    height: 150px; /* Adjust as needed */
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+  .screenshot {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+  
+ 
+    transition: box-shadow 0.3s ease;
+  }
+  p { 
+    font-size: 1.2em;
+    font-style: italic;
+  } 
+  
+  
+  .screenshot:hover {
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.909); 
+  }
+  
+  .error-text {
+    color: red;
+  }
+@media (min-width: 768px) {
+  .about-section {
+      flex-direction: row;
+      justify-content: center; 
+      text-align: left;
+  }
+
+  .photo-container {
+      margin-right: 40px; 
+  }
+}
