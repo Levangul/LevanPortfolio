@@ -11,32 +11,35 @@ const Portfolio = () => {
       <h2 className="text-center">Portfolio</h2>
       <div className="row justify-content-center">
       <div className="col-md-6 col-lg-4 mb-4 screenshot">
-          <a href="https://example.com/page4">
+          <a href="https://github.com/Levangul/levans-musical-quiz"
+          target='blank'>
             <img src={quiz} alt="Quiz" className="img-fluid rounded" style={{ maxWidth: '100%', height: 'auto' }} />
           </a>
         </div>
-        <div className="col-md-6 col-lg-4 mb-4 screenshot">
-          <a href="https://example.com/page2">
+        <div className="col-md-6 col-lg-4 mb-4 screenshot"
+        target="blank">
+          <a href="https://github.com/Levangul/levans-weather-dashbboard" target='blank'>
             <img src={weatherDashboard} alt="Weather Dashboard" className="img-fluid rounded" style={{ maxWidth: '100%', height: 'auto' }} />
           </a>
         </div>
         <div className="col-md-6 col-lg-4 mb-4 screenshot">
-          <a href="https://example.com/page4">
+          <a href="https://github.com/Levangul/Levans-PWA-Text-Editor"
+          target='blank'>
             <img src={textEditor} alt="Text Editor" className="img-fluid rounded" style={{ maxWidth: '100%', height: 'auto' }} />
           </a>
         </div>
         <div className="col-md-6 col-lg-4 mb-4 screenshot">
-          <a href="https://example.com/page1">
+          <a href="https://github.com/Levangul/levans-workday-scheduler" target='blank'>
             <img src={workDayScheduler} alt="Work Day Scheduler" className="img-fluid rounded" style={{ maxWidth: '100%', height: 'auto' }} />
           </a>
         </div>
         <div className="col-md-6 col-lg-4 mb-4 screenshot">
-          <a href="https://example.com/page3">
+          <a href="https://github.com/Levangul/task-trek" target='blank'>
             <img src={taskTrek} alt="Task Trek" className="img-fluid rounded" style={{ maxWidth: '100%', height: 'auto' }} />
           </a>
         </div>
         <div className="col-md-6 col-lg-4 mb-4 screenshot">
-          <a href="https://example.com/page4">
+          <a href="https://github.com/Levangul/Event-Space" target='blank'>
             <img src={eventSpace} alt="Event Space" className="img-fluid rounded" style={{ maxWidth: '100%', height: 'auto' }} />
           </a>
         </div>
