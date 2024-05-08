@@ -1,21 +1,16 @@
 function About() {
-	return (
-		<section>
-			<div className="center" id="about">
-				<h1 className="page-header">About Me</h1>
-			</div>
-			<div className="center">
-				<img src={""} alt="about-me" className="photo" />
-			</div>
-			<div>
-				<p>
-					Hi, My name is Levan and i am very enthusiastic to become crazy good
-					in this thing !
-				</p>
-				<p>Skills:</p>
-			</div>
-		</section>
-	);
+    return (
+        <section className="about-section">
+            <div className="photo-container">
+                <img src={'./src/assets/437D0514-CF8E-490F-8876-288972D714E9_1_105_c.png'} className="photo" alt="Levan's Photo" />
+            </div>
+            <div className="info-container">
+                <p>
+                    Hi there, my name is Levan! Journalist, Developer, and Musician from Brooklyn, New York. its not a accident i chose this professions here... i love details .. i love to make things coherent simple 
+                </p>
+            </div>
+        </section>
+    );
 }
 
 export default About;
