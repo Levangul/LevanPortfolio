@@ -8,7 +8,7 @@ import textEditor from '../assets/327643907-f8e87499-eff4-4c76-8fb6-dc4d5485c7b3
 const Portfolio = () => {
   return (
     <div className="container">
-      <h2 className="text-center">Portfolio</h2>
+      
       <div className="row justify-content-center">
       <div className="col-md-6 col-lg-4 mb-4 screenshot">
           <a href="https://github.com/Levangul/levans-musical-quiz"
@@ -38,9 +38,9 @@ const Portfolio = () => {
             <img src={taskTrek} alt="Task Trek" className="img-fluid rounded" style={{ maxWidth: '100%', height: 'auto' }} />
           </a>
         </div>
-        <div className="col-md-6 col-lg-4 mb-4 screenshot">
+        <div className="col-md-6 col-lg-4 mb-4 screenshot event-space">
           <a href="https://github.com/Levangul/Event-Space" target='blank'>
-            <img src={eventSpace} alt="Event Space" className="img-fluid rounded" style={{ maxWidth: '100%', height: 'auto' }} />
+            <img src={eventSpace} alt="Event Space" className="img-fluid rounded" style={{ maxWidth: '100%', height: 'auto%' }} />
           </a>
         </div>
       

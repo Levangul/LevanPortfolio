@@ -36,7 +36,13 @@ const Contact = () => {
 
   return (
     <div className="container text-center">
-      <h1>Contact Me</h1>
+      <div className="call-me-avatar">
+              <img
+                src={"./src/assets/83917dd04c51d7fa-sticker.png"}
+                className="photo-2 img-fluid rounded"
+                alt="Levan's Photo"
+              />
+            </div>
       <form className="contact-form" onSubmit={handleFormSubmit}>
         <div className="form-group">
           <input

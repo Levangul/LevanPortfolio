@@ -2,7 +2,7 @@ import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer ">
       <div className="social-icons">
         <a href="https://github.com/Levangul" target="_blank" rel="noopener noreferrer">
           <FaGithub className="icon" />
@@ -14,7 +14,7 @@ const Footer = () => {
           <FaLinkedin className="icon" />
         </a>
       </div>
-      <p className="centered-text">Thank you for visiting my page! I hope you love it ❤️❤️</p>
+     
     </div>
   );
 };
