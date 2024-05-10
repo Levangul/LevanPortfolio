@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import avatar2 from '../assets/83917dd04c51d7fa-sticker.png'
 
 
 const Contact = () => {
@@ -38,7 +39,7 @@ const Contact = () => {
     <div className="container text-center">
       <div className="call-me-avatar">
               <img
-                src={"./src/assets/83917dd04c51d7fa-sticker.png"}
+                src={avatar2}
                 className="photo-2 img-fluid rounded"
                 alt="Levan's Photo"
               />

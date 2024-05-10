@@ -9,6 +9,7 @@ import {
 
 import avatar from '../assets/64804861f8485df3-sticker.png'
 
+
 function About() {
   return (
     <section className="about-section">
