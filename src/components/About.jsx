@@ -7,6 +7,8 @@ import {
   SiJest,
 } from "react-icons/si";
 
+import avatar from '../assets/64804861f8485df3-sticker.png'
+
 function About() {
   return (
     <section className="about-section">
@@ -15,7 +17,7 @@ function About() {
           <div className="col-lg-4 col-md-6 text-center mb-4">
             <div className="photo-container">
               <img
-                src={"./src/assets/64804861f8485df3-sticker.png"}
+                src={avatar}
                 className="photo img-fluid rounded"
                 alt="Levan's Photo"
               />
