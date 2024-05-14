@@ -2,36 +2,36 @@ const projects = [
   {
     name: "Musical Quiz",
     image:
-      "../../src/assets/quiz.png",
+      "/images/quiz.png",
     githubLink: "https://github.com/Levangul/levans-musical-quiz",
   },
   {
     name: "Weather Dashboard",
     image:
-      "../../src/assets/weather.png",
+      "/images/weather.png",
     githubLink: "https://github.com/Levangul/levans-weather-dashbboard",
   },
   {
     name: "Text Editor",
     image:
-      "../../src/assets/editor.png",
+      "/images/editor.png",
     githubLink: "https://github.com/Levangul/Levans-PWA-Text-Editor",
   },
   {
     name: "Work Day Scheduler",
     image:
-      "../../src/assets/scheduler.png",
+      "/images/scheduler.png",
     githubLink: "https://github.com/Levangul/levans-workday-scheduler",
   },
   {
     name: "Task Trek",
     image:
-      "../../src/assets/tasktrek.png",
+      "/images/tasktrek.png",
     githubLink: "https://github.com/Levangul/task-trek",
   },
   {
     name: "Event Space",
-    image: "../../src/assets/eventspace.png",
+    image: "/images/eventspace.png",
     githubLink: "https://github.com/Levangul/Event-Space",
   },
 ];
