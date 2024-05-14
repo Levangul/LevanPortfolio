@@ -1,27 +1,32 @@
 const projects = [
   {
     name: "Musical Quiz",
-    image: "../../src/assets/296934869-ffc14109-5b99-4c8e-9b62-39c9278135b8 (1).png",
+    image:
+      "../../src/assets/296934869-ffc14109-5b99-4c8e-9b62-39c9278135b8 (1).png",
     githubLink: "https://github.com/Levangul/levans-musical-quiz",
   },
   {
     name: "Weather Dashboard",
-    image: "../../src/assets/300971442-29d60ba0-6374-493f-ae5d-e5e3efdb6f95.png",
+    image:
+      "../../src/assets/300971442-29d60ba0-6374-493f-ae5d-e5e3efdb6f95.png",
     githubLink: "https://github.com/Levangul/levans-weather-dashbboard",
   },
   {
     name: "Text Editor",
-    image: "../../src/assets/327643907-f8e87499-eff4-4c76-8fb6-dc4d5485c7b3.png",
+    image:
+      "../../src/assets/327643907-f8e87499-eff4-4c76-8fb6-dc4d5485c7b3.png",
     githubLink: "https://github.com/Levangul/Levans-PWA-Text-Editor",
   },
   {
     name: "Work Day Scheduler",
-    image: "../../src/assets/298846978-ea888700-9b92-4d4f-a51e-fbb4aebff21f.png",
+    image:
+      "../../src/assets/298846978-ea888700-9b92-4d4f-a51e-fbb4aebff21f.png",
     githubLink: "https://github.com/Levangul/levans-workday-scheduler",
   },
   {
     name: "Task Trek",
-    image: "../../src/assets/319783637-66184bb9-d249-46fc-b5e1-a00e2ecc1e8e.png",
+    image:
+      "../../src/assets/319783637-66184bb9-d249-46fc-b5e1-a00e2ecc1e8e.png",
     githubLink: "https://github.com/Levangul/task-trek",
   },
   {
@@ -51,7 +56,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  GitHub
+                  Github
                 </a>
               </div>
             </div>
