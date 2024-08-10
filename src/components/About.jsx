@@ -27,12 +27,7 @@ function About() {
           <div className="col-lg-8 col-md-6">
             <div className="info-container fs-4 lh-base">
               <p>
-                Hi there, my name is Levan! I am a full-stack developer,
-                journalist and musician from Brooklyn, New York. I love working
-                on details and putting everything in order... I assume it is
-                obvious based on the things I choose to do in my life. I love to
-                make things coherent and simple. Originally from Tbilisi,
-                Georgia, I moved to New York in 2022 for new challenges.
+              Hi! I’m Levan, a full-stack developer, journalist, and musician based in Brooklyn, New York. I’m passionate about crafting details and bringing clarity to everything I do, whether it’s coding, writing, or making music. I thrive on creating things that are coherent and straightforward. Originally from Tbilisi, Georgia, I moved to New York in 2022 to embrace new challenges and continue growing in my journey. 
               </p>
             </div>
           </div>
