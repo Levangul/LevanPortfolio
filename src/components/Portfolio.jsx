@@ -2,8 +2,20 @@ const projects = [
   {
     name: "Musical Quiz",
     image:
-      "/images/quiz.png",
-    githubLink: "https://github.com/Levangul/levans-musical-quiz",
+      "/images/panorama.png",
+    githubLink: "https://github.com/Levangul/virtual-art-gallery",
+    liveLink: "https://art-gallery-panorama-7c4924971a42.herokuapp.com/",
+  },
+  {
+    name: "Event Space",
+    image: "/images/eventspace.png",
+    githubLink: "https://github.com/Levangul/Event-Space",
+  },
+  {
+    name: "Task Trek",
+    image:
+      "/images/tasktrek.png",
+    githubLink: "https://github.com/Levangul/task-trek",
   },
   {
     name: "Weather Dashboard",
@@ -23,17 +35,7 @@ const projects = [
       "/images/scheduler.png",
     githubLink: "https://github.com/Levangul/levans-workday-scheduler",
   },
-  {
-    name: "Task Trek",
-    image:
-      "/images/tasktrek.png",
-    githubLink: "https://github.com/Levangul/task-trek",
-  },
-  {
-    name: "Event Space",
-    image: "/images/eventspace.png",
-    githubLink: "https://github.com/Levangul/Event-Space",
-  },
+  
 ];
 const Portfolio = () => {
   return (
