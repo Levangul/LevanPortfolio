@@ -3,7 +3,7 @@ import ResumePDF from "../assets/Levan_Gulbatashvili_Resume.pdf";
 const Resume = () => {
   return (
     <div className="font-roboto mx-auto my-10 max-w-4xl p-8 rounded-lg shadow-lg text-center">
-      <h1 className="text-4xl font-bold text-indigo-600 mb-6">Resume</h1>
+     
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col items-center w-full">
           {/* Displaying the PDF with increased size */}
