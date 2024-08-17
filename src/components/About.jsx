@@ -1,5 +1,5 @@
 import { FaHtml5, FaCss3, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiMysql, SiJavascript, SiJest } from "react-icons/si";
+import { SiMongodb, SiExpress, SiMysql, SiJavascript, SiJest, SiGraphql } from "react-icons/si";
 
 import avatar from '../assets/64804861f8485df3-sticker.png';
 
@@ -40,6 +40,7 @@ function About() {
                 { icon: <FaDatabase />, label: "SQL/Database", color: "#336791" },
                 { icon: <SiMongodb />, label: "MongoDB", color: "#47A248" },
                 { icon: <SiExpress />, label: "Express", color: "#000000" },
+                { icon: <SiGraphql />, label: "GraphQL", color: "#E10098" },
                 { icon: <SiMysql />, label: "MySQL", color: "#00758F" },
                 { icon: <SiJest />, label: "Jest", color: "#99424F" },
               ].map((skill, index) => (
