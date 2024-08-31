@@ -22,7 +22,7 @@
 
  ![screencapture-musical-crumble-984f0d-netlify-app-2024-05-11-23_49_45](https://github.com/Levangul/LevanPortfolio/assets/150108077/5c0bbc20-74d8-463a-990e-bb49541dfdc4)
 
- https://musical-crumble-984f0d.netlify.app
+ https://levang.netlify.app/
 
 
 
