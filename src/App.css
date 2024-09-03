@@ -1,49 +1,43 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
 :root {
-  --primary-color: #6b93d6;
-  --primary-color-hover: #537bb8;
-  --accent-color: #87ceeb;
-  --secondary-accent: #ef476f;
-  --text-color: #3e3e3e;
-  --background-color: #f3f4f6;
-  --background-gradient: linear-gradient(to right, #f9f9f9, #e3e3e3);
-  --card-background: #ffffff;
-  --card-hover: #f1f1f1;
-  --border-color: #cccccc;
-  --light-border-color: rgba(0, 0, 0, 0.1);
-  --font-family: 'Josefin Sans', cursive;
+  --primary-color: #1F3B5C; 
+  --secondary-color: #FF6F61;
+  --accent-color: #73b8d6;
+  --background-color: #F7F8FA;
+  --text-color: #333333;
+  --font-family-primary: 'Poppins', sans-serif;
+  --font-family-secondary: 'Lora', serif;
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: var(--font-family-primary);
   color: var(--text-color);
   background-color: var(--background-color);
+  line-height: 1.7;
 }
-
 #root {
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
   color: var(--text-color);
   background-image: var(--background-gradient);
 }
 
-/* Portfolio Section */
-
 .section-title {
-  text-align: center;
+  font-family: var(--font-family-secondary);
+  font-size: 2.2rem;
   margin-bottom: 40px;
   color: var(--primary-color);
 }
 
 .project-card {
-  background-color: var(--card-background);
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
-  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  margin-bottom: 20px; /* Added margin between cards */
+  margin-bottom: 30px;
+  background-color: #fff;
+  border: 1px solid var(--primary-color);
 }
 
 .project-card:hover {
@@ -63,11 +57,22 @@ body {
 }
 
 .navbar {
-  background-color: var(--primary-color);
-  padding: 1rem 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(31, 59, 92, 0.9);
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
 
+.nav-link {
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
 .nav-tabs {
   display: flex;
   justify-content: center;
@@ -81,19 +86,9 @@ body {
   margin: 0 15px;
 }
 
-.nav-link {
-  color: #fff;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  padding: 0.5rem 1rem;
-  border-radius: 30px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.nav-link:hover {
-  background-color: var(--primary-color-hover);
-  transform: scale(1.05);
+.nav-link:hover, .nav-link.active {
+  color: var(--accent-color);
+  background-color: rgba(31, 59, 92, 0.7);
 }
 .project-name {
   font-size: 1.2rem;
@@ -157,17 +152,6 @@ body {
   font-size: 30px;
 }
 
-.skills {
-  border: 1px solid var(--border-color);
-  animation: glowing-border 2.5s infinite alternate;
-  padding: 20px;
-  margin-top: 50px;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 0.6)
-  );
-}
 
 .screenshot {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
@@ -209,17 +193,15 @@ textarea.form-control {
 }
 
 .btn-primary {
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: #fff;
-  border: none;
-  cursor: pointer;
+  border-radius: 25px;
+  padding: 10px 20px;
   transition: background-color 0.3s ease;
 }
 
 .btn-primary:hover {
-  background-color: var(--primary-color-hover);
+  background-color: #E85B50;
 }
 
 .error-text {
@@ -286,7 +268,19 @@ p {
   font-weight: bold;
 }
 
+/* 
 .skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 4rem 2rem;
+  background-color: var(--background-color);
+} */
+
+.skills {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+  gap: 20px;
   padding: 2rem 0;
   margin-top: 3rem;
   background: var(--primary-color);
@@ -295,11 +289,21 @@ p {
   color: white;
 }
 
-.skill-icon {
-  font-size: 3rem;
-  transition: transform 0.3s ease-in-out;
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
+.skill-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
 .skill-icon:hover {
   transform: scale(1.15);
 }
